@@ -39,6 +39,17 @@ docker-compose up
 curl  http://127.0.0.1:8080/ -d '{"method": "market.list", "params": [], "id": 1516681174}
 ```
 
+全部搞定了,开始探索吧！
+
+
+提示: 如果你没有安装git，也可以使用下面的步骤运行
+
+* 手工下载文件 https://codeload.github.com/gyk001/viabtc_exchange_server_docker/zip/master
+* 解压下载的压缩包 viabtc_exchange_server_docker-master.zip
+* 命令行进入解压后的目录
+* 执行`docker-compose up`
+
+
 # 捐赠
 
 <div id="donate_module">

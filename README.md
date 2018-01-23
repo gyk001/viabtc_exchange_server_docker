@@ -36,6 +36,20 @@ just wait it startup and then test use curl
 curl  http://127.0.0.1:8080/ -d '{"method": "market.list", "params": [], "id": 1516681174}
 ```
 
+All is done, just play it!
+
+
+Tips: if you don't install git, you can startup it like this
+
+* 下载 https://codeload.github.com/gyk001/viabtc_exchange_server_docker/zip/master
+* 解压 viabtc_exchange_server_docker-master.zip
+* 命令行进入解压后的目录
+* 执行`docker-compose up`
+
+
+``` 
+
+
 # Donation
 
 <div id="donate_module">
