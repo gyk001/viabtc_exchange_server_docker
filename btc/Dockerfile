@@ -16,12 +16,15 @@ RUN apt-get update &&\
 	mkdir /src/ &&\
 	cd /src
 
+WORKDIR /src/
+
 # 安装kafka
 RUN wget https://codeload.github.com/edenhill/librdkafka/tar.gz/v0.11.3 -O  /src/librdkafka.tar.gz &&\
 	tar xzvf /src/librdkafka.tar.gz &&\
-	rm -rf /src/librdkafka.tar.gz &&\
-	mv librdkafka-* librdkafka &&\
-	cd /src/librdkafka &&\
+	rm -rf /src/librdkafka.tar.gz
+#	mv librdkafka-* librdkafka &&\
+RUN ls /src/
+RUN	cd /src/librdkafka-* &&\
   	./configure --prefix=/usr/local &&\
   	sed -i "s/WITH_LDS=/#WITH_LDS=/g" Makefile.config &&\
   	make &&\
