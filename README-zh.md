@@ -15,7 +15,7 @@
 
 # 屏幕截图
 
-![屏幕截图](imgs/screenshots.png)
+![屏幕截图](http://p30hfwvsg.bkt.clouddn.com/viabtc_exchange_server_docker/screenshots.jpg)
 
 # 准备工作
 
@@ -52,6 +52,7 @@ curl  http://127.0.0.1:18080/ -d '{"method": "market.list", "params": [], "id": 
 
 # 捐赠
 
+
 <div id="donate_module">
 	<!-- btn_donate & tips -->
 	<div id="donate_board">
@@ -65,14 +66,14 @@ curl  http://127.0.0.1:18080/ -d '{"method": "market.list", "params": [], "id": 
 	<div id="donate_guide">
 		<div>
 			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=G76ZNGLBBYUD6" title="Palpay Payment">
-				<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg" title="Donate 打赏" width="220px" />
+				<img src="http://p30hfwvsg.bkt.clouddn.com/viabtc_exchange_server_docker/palpay_donate.jpg" title="Paypal捐赠" width="220px" />
 			</a>
 		</div>
-		<a href="donate/alipay.png" title="Alipay_Scan_Payment">
-			<img src="donate/alipay.png" title="Donate 打赏" height="164px" width="164px"/>
+		<a href="http://p30hfwvsg.bkt.clouddn.com/viabtc_exchange_server_docker/alipay.png" title="Alipay_Scan_Payment">
+			<img src="http://p30hfwvsg.bkt.clouddn.com/viabtc_exchange_server_docker/alipay.png" title="支付宝扫描捐赠" height="164px" width="164px"/>
 		</a> &nbsp;
-		<a href="donate/wepay.png" title="WeChat_Scan_Payment" class="fancybox" rel="article0">
-			<img src="donate/wepay.png" title="Donate 打赏" height="164px" width="auto"/>
+		<a href="http://p30hfwvsg.bkt.clouddn.com/viabtc_exchange_server_docker/wepay.png" title="WeChat_Scan_Payment" class="fancybox" rel="article0">
+			<img src="http://p30hfwvsg.bkt.clouddn.com/viabtc_exchange_server_docker/wepay.png" title="微信扫码捐赠" height="164px" width="auto"/>
 		</a>
 	</div>
 	<!-- /donate guide -->
