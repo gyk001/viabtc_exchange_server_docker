@@ -65,11 +65,15 @@ curl  http://127.0.0.1:18080/ -d '{"method": "market.list", "params": [], "id": 
 	<div id="donate_guide">
 		<div>
 			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=G76ZNGLBBYUD6" title="Palpay打赏">
-				<img src="imgs/palpay_donate.jpg" title="Palpay打赏" width="220px" />
+				<img src="imgs/palpay_donate.jpg" title="Palpay打赏" width="220px" height="51px"/>
 			</a>
 		</div>
-        <img src="imgs/alipay.png" title="支付宝扫码打赏" height="164px" width="164px"/>
-        <img src="imgs/wepay.png" title="微信扫码打赏" height="164px" width="auto"/>
+		<a href="http://p30hfwvsg.bkt.clouddn.com/viabtc_exchange_server_docker/alipay.png" target="_blank" title="支付宝扫码打赏">
+            <img src="imgs/alipay.png" title="支付宝扫码打赏" height="160px" width="157px"/>
+        </a>
+        <a href="http://p30hfwvsg.bkt.clouddn.com/viabtc_exchange_server_docker/wepay.png" target="_blank" title="微信扫码打赏">
+            <img src="imgs/wepay.png" title="微信扫码打赏" height="160px" width="163px"/>
+        </a>
 	</div>
 	<!-- /donate guide -->
 	<div>
