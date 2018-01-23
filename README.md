@@ -48,10 +48,6 @@ Tips: if you don't install git, you can startup it like this
 * 命令行进入解压后的目录
 * 执行`docker-compose up`
 
-
-``` 
-
-
 # Donation
 
 <div id="donate_module">
