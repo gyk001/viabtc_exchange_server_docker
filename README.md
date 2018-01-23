@@ -14,7 +14,7 @@ This repo do this things automatic:
 
 # Screenshots
 
-![screenshots](http://p30hfwvsg.bkt.clouddn.com/viabtc_exchange_server_docker/screenshots.jpg)
+![screenshots](imgs/screenshots.png)
 
 # Prepare
 
@@ -63,14 +63,14 @@ Tips: if you don't install git, you can startup it like this
 	<div id="donate_guide">
 		<div>
 			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=G76ZNGLBBYUD6" title="Palpay Payment">
-				<img src="http://p30hfwvsg.bkt.clouddn.com/viabtc_exchange_server_docker/palpay_donate.jpg" title="Paypal Donate" width="220px" />
+				<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg" title="Donate 打赏" width="220px" />
 			</a>
 		</div>
-		<a href="http://p30hfwvsg.bkt.clouddn.com/viabtc_exchange_server_docker/alipay.png" title="Alipay_Scan_Payment">
-			<img src="http://p30hfwvsg.bkt.clouddn.com/viabtc_exchange_server_docker/alipay.png" title="Alipay Donate" height="164px" width="164px"/>
+		<a href="donate/alipay.png" title="Alipay_Scan_Payment">
+			<img src="donate/alipay.png" title="Donate 打赏" height="164px" width="164px"/>
 		</a> &nbsp;
-		<a href="http://p30hfwvsg.bkt.clouddn.com/viabtc_exchange_server_docker/wepay.png" title="WeChat_Scan_Payment" class="fancybox" rel="article0">
-			<img src="http://p30hfwvsg.bkt.clouddn.com/viabtc_exchange_server_docker/wepay.png" title="WeChat Donate" height="164px" width="auto"/>
+		<a href="donate/wepay.png" title="WeChat_Scan_Payment" class="fancybox" rel="article0">
+			<img src="donate/wepay.png" title="Donate 打赏" height="164px" width="auto"/>
 		</a>
 	</div>
 	<!-- /donate guide -->
