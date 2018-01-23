@@ -35,7 +35,7 @@ docker-compose up
 Just wait it startup and then test use curl
 
 ```bash
-curl  http://127.0.0.1:8080/ -d '{"method": "market.list", "params": [], "id": 1516681174}
+curl  http://127.0.0.1:18080/ -d '{"method": "market.list", "params": [], "id": 1516681174}'
 ```
 
 All is done, just play it!

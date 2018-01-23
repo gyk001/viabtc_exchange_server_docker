@@ -36,7 +36,7 @@ docker-compose up
 等待服务启动完成，然后使用curl命令测试效果
 
 ```bash
-curl  http://127.0.0.1:8080/ -d '{"method": "market.list", "params": [], "id": 1516681174}
+curl  http://127.0.0.1:18080/ -d '{"method": "market.list", "params": [], "id": 1516681174}'
 ```
 
 全部搞定了,开始探索吧！
