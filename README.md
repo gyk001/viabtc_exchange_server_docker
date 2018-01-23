@@ -14,7 +14,7 @@ This repo do this things automatic:
 
 # Screenshots
 
-![screenshots](imgs/screenshots.png)
+![screenshots](imgs/screenshots.jpg)
 
 # Prepare
 
@@ -60,19 +60,15 @@ Tips: if you don't install git, you can startup it like this
 	</div>
 	<!-- /btn_donate & tips -->
 	<!-- donate guide -->
-	<div id="donate_guide">
-		<div>
-			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=G76ZNGLBBYUD6" title="Palpay Payment">
-				<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg" title="Donate 打赏" width="220px" />
-			</a>
-		</div>
-		<a href="donate/alipay.png" title="Alipay_Scan_Payment">
-			<img src="donate/alipay.png" title="Donate 打赏" height="164px" width="164px"/>
-		</a> &nbsp;
-		<a href="donate/wepay.png" title="WeChat_Scan_Payment" class="fancybox" rel="article0">
-			<img src="donate/wepay.png" title="Donate 打赏" height="164px" width="auto"/>
-		</a>
-	</div>
+    <div id="donate_guide">
+        <div>
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=G76ZNGLBBYUD6" title="Palpay donate">
+                <img src="imgs/palpay_donate.jpg" title="Palpay打赏" width="220px" />
+            </a>
+        </div>
+        <img src="imgs/alipay.png" title="Alipay donate" height="164px" width="164px"/>
+        <img src="imgs/wepay.png" title="WeChat donate" height="164px" width="auto"/>
+    </div>
 	<!-- /donate guide -->
 	<div>
     	<span class="donate_txt">

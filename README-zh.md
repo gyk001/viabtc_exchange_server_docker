@@ -15,7 +15,7 @@
 
 # 屏幕截图
 
-![屏幕截图](imgs/screenshots.png)
+![屏幕截图](imgs/screenshots.jpg)
 
 # 准备工作
 
@@ -64,16 +64,12 @@ curl  http://127.0.0.1:18080/ -d '{"method": "market.list", "params": [], "id": 
 	<!-- donate guide -->
 	<div id="donate_guide">
 		<div>
-			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=G76ZNGLBBYUD6" title="Palpay Payment">
-				<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg" title="Donate 打赏" width="220px" />
+			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=G76ZNGLBBYUD6" title="Palpay打赏">
+				<img src="imgs/palpay_donate.jpg" title="Palpay打赏" width="220px" />
 			</a>
 		</div>
-		<a href="donate/alipay.png" title="Alipay_Scan_Payment">
-			<img src="donate/alipay.png" title="Donate 打赏" height="164px" width="164px"/>
-		</a> &nbsp;
-		<a href="donate/wepay.png" title="WeChat_Scan_Payment" class="fancybox" rel="article0">
-			<img src="donate/wepay.png" title="Donate 打赏" height="164px" width="auto"/>
-		</a>
+        <img src="imgs/alipay.png" title="支付宝扫码打赏" height="164px" width="164px"/>
+        <img src="imgs/wepay.png" title="微信扫码打赏" height="164px" width="auto"/>
 	</div>
 	<!-- /donate guide -->
 	<div>
