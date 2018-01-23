@@ -1,24 +1,26 @@
-# Easy startup viabtc_exchange_server with docker
+# 使用Docker快速运行viabtc_exchange_server
 
-[中文](README-zh.md)
+[English](README.md)
 
-This is docker config to startup [viabtc_exchange_server](https://github.com/viabtc/viabtc_exchange_server) simply.
+本项目提供了一种简单快速启动[viabtc_exchange_server](https://github.com/viabtc/viabtc_exchange_server) 的Docker配置
 
-This repo do this things automatic:
+这些配置会自动配置以下内容：
 
-* Startup a ubuntu docker container
-* Prepare requirements environment
-* Build viabtc_exchange_server from sourcecode
-* Set up requirement service( redis kafka mysql...)
-* Startup viabtc_exchange_server service
+* 启动一个Ubuntu容器
+* 准备好编译及运行环境
+* 从源码构建viabtc_exchange_server
+* 搭建并启动依赖服务(如redis kafka mysql等)
+* 启动viabtc_exchange_server服务
 
-# Prepare
+# 准备工作
 
-* docker with compose: https://docs.docker.com/compose/install/
-* git: not require, you also can download repo from webpage
-* curl: not require, just for test
+* 安装docker包括docker-compose: 详见文档 https://docs.docker.com/compose/install/
+* git: 非必须,你也可以下载从页面上下载该仓库
+* curl: 非必须，仅测试服务效果使用
 
-# Startup
+# 使用方式
+
+执行以下命令
 
 ```bash
 git clone git@github.com:gyk001/viabtc_exchange_server_docker.git
@@ -26,13 +28,13 @@ cd viabtc_exchange_server_docker
 docker-compose up
 ```
 
-just wait it startup and then test use curl
+等待服务启动完成，然后使用curl命令测试效果
 
 ```bash
 curl  http://127.0.0.1:8080/ -d '{"method": "market.list", "params": [], "id": 1516681174}
 ```
 
-# Donation
+# 捐赠
 
 <!-- Donate Module -->
 <div id="donate_module">
@@ -81,7 +83,7 @@ curl  http://127.0.0.1:8080/ -d '{"method": "market.list", "params": [], "id": 1
 </div>
 <!-- /Donate Module -->
 
-# Links
+# 链接
 
 * https://github.com/viabtc/viabtc_exchange_server
 * https://github.com/docker-library/mysql
