@@ -1,6 +1,6 @@
 # 使用Docker快速运行viabtc_exchange_server
 
-[English](README.md) <a class="github-button" href="https://github.com/gyk001/viabtc_exchange_server_docker" data-size="large" aria-label="Star gyk001/viabtc_exchange_server_docker on GitHub">Star</a>
+[English](README.md)
 
 
 本项目提供了一种简单快速启动[viabtc_exchange_server](https://github.com/viabtc/viabtc_exchange_server) 的Docker配置
