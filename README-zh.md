@@ -25,7 +25,7 @@
 
 # 使用方式
 
-执行以下命令
+打开终端(linux/mac)或者cmd(windows)
 
 ```bash
 git clone git@github.com:gyk001/viabtc_exchange_server_docker.git
