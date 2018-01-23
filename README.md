@@ -34,29 +34,17 @@ curl  http://127.0.0.1:8080/ -d '{"method": "market.list", "params": [], "id": 1
 
 # Donation
 
-<!-- Donate Module -->
 <div id="donate_module">
-	<!-- css -->
-	<style type="text/css">
-		.donate_bar .donate_txt {
-			display: block;
-			color: #9d9d9d;
-			font: 14px/2 "Microsoft Yahei";
-		}
-		.bold{ font-weight: bold; }
-	</style>
-	<!-- /css -->
 	<!-- btn_donate & tips -->
-	<div id="donate_board" class="donate_bar center">
+	<div id="donate_board">
 		<span class="donate_txt">
 			If you find this help, please <span class="bold">donate~</span>  Thx.<br/>
 			若本项目对您有帮助，<span class="bold">求打赏~</span> 谢谢您的鼓励。
 		</span>
-		<br/>
 	</div>
 	<!-- /btn_donate & tips -->
 	<!-- donate guide -->
-	<div id="donate_guide" class="donate_bar center hidden">
+	<div id="donate_guide">
 		<div>
 			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=G76ZNGLBBYUD6" title="Palpay Payment">
 				<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg" title="Donate 打赏" width="220px" />
@@ -68,16 +56,17 @@ curl  http://127.0.0.1:8080/ -d '{"method": "market.list", "params": [], "id": 1
 		<a href="donate/wepay.png" title="WeChat_Scan_Payment" class="fancybox" rel="article0">
 			<img src="donate/wepay.png" title="Donate 打赏" height="164px" width="auto"/>
 		</a>
-		<span class="donate_txt">
-			Use App <span class="bold"><a href="http://global.alipay.com/ospay/home.htm">Alipay</a> / <a href="http://www.wechat.com/en/">WeChat</a></span>
-			to scan QRCode~ Thx for your support.<br/>
-			用手机 <span class="bold"><a href="https://mobile.alipay.com/index.htm">支付宝钱包</a> / <a href="http://weixin.qq.com/">微信</a></span>，
-			扫一扫即可~ 谢谢您的鼓励。<br/>
-			<br/>
-		</span>
-		<br/>
 	</div>
 	<!-- /donate guide -->
+	<div>
+    	<span class="donate_txt">
+            Use App <span class="bold"><a href="http://global.alipay.com/ospay/home.htm">Alipay</a> / <a href="http://www.wechat.com/en/">WeChat</a></span>
+            to scan QRCode~ Thx for your support.<br/>
+            用手机 <span class="bold"><a href="https://mobile.alipay.com/index.htm">支付宝钱包</a> / <a href="http://weixin.qq.com/">微信</a></span>，
+            扫一扫即可~ 谢谢您的鼓励。<br/>
+            <br/>
+        </span>
+	</div>
 </div>
 <!-- /Donate Module -->
 
