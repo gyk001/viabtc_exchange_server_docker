@@ -43,10 +43,10 @@ All is done, just play it!
 
 Tips: if you don't install git, you can startup it like this
 
-* 下载 https://codeload.github.com/gyk001/viabtc_exchange_server_docker/zip/master
-* 解压 viabtc_exchange_server_docker-master.zip
-* 命令行进入解压后的目录
-* 执行`docker-compose up`
+* Download https://codeload.github.com/gyk001/viabtc_exchange_server_docker/zip/master
+* Extract viabtc_exchange_server_docker-master.zip
+* cd into the target directory
+* run `docker-compose up`
 
 # Donation
 
