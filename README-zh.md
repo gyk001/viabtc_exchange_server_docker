@@ -13,6 +13,10 @@
 * 搭建并启动依赖服务(如redis kafka mysql等)
 * 启动viabtc_exchange_server服务
 
+# 屏幕截图
+
+![屏幕截图](imgs/screenshots.png)
+
 # 准备工作
 
 * 安装docker包括docker-compose: 详见文档 https://docs.docker.com/compose/install/
