@@ -1,4 +1,4 @@
-FROM ubuntu:xenial AS btc-build
+FROM ubuntu:xenial
 
 MAINTAINER Guo Yukun
 
@@ -60,7 +60,7 @@ WORKDIR /btc/
 
 CMD /bin/bash
 
-FROM btc-build
+FROM ubuntu:xenial
 
 COPY /btc/ /btc/
 
