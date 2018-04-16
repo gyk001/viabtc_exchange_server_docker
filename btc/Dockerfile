@@ -60,7 +60,7 @@ WORKDIR /btc/
 
 CMD /bin/bash
 
-FROM ubuntu:xenial
+# FROM ubuntu:xenial
 
 COPY /btc/ /btc/
 
