@@ -20,7 +20,7 @@
 # 准备工作
 
 * 安装docker包括docker-compose: 详见文档 https://docs.docker.com/compose/install/
-  > > Docker 17.05.0-ce或以上版本
+  > Docker 17.05.0-ce或以上版本
 * git: 非必须,你也可以下载从页面上下载该仓库
 * curl: 非必须，仅测试服务效果使用
 
