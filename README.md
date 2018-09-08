@@ -19,6 +19,7 @@ This repo do this things automatic:
 # Prepare
 
 * docker with compose: https://docs.docker.com/compose/install/
+  > Docker 17.05.0-ce version or newer
 * git: not require, you also can download repo from webpage
 * curl: not require, just for test
 
