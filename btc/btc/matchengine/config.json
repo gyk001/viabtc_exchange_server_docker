@@ -150,7 +150,7 @@
             "min_amount": "0.001"
         }
     ],
-    "brokers": "mq:9092",
+    "brokers": "kafka:9092",
     "slice_interval": 3600,
     "slice_keeptime": 259200
 }

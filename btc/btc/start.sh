@@ -34,6 +34,7 @@ echo ">>> marketprice starting..." &&\
 
 ps -ef
 
+touch /var/log/trade/matchengine.log
 tail -f /var/log/trade/matchengine.log
 
 

@@ -14,14 +14,16 @@ services:
       - "18081:8081"
       - "18091:8091"
     depends_on:
+      - zookeeper
       - mysql
       - kafka
       - redis_sentinel
       - redis_slave
       - redis_master
     links:
+      - zookeeper:zk
       - mysql:db
-      - kafka:mq
+      - kafka
       - redis_sentinel
       - redis_slave
       - redis_master
@@ -49,6 +51,7 @@ services:
       - SLAVES=redis_slave
     depends_on:
       - redis_master
+      - redis_slave
     ports:
       - "26379:26379"
 
@@ -72,8 +75,10 @@ services:
     ports:
       - "19092:9092"
     environment:
-      KAFKA_ADVERTISED_HOST: mq
+      KAFKA_ADVERTISED_HOST_NAME: kafka
       KAFKA_ADVERTISED_PORT: 9092
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+    depends_on:
+      - zookeeper
