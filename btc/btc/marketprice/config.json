@@ -23,7 +23,7 @@
     "heartbeat_check": false
   },
   "deals": {
-    "brokers": "mq:9092",
+    "brokers": "kafka:9092",
     "topic": "deals",
     "partition": 0
   },
