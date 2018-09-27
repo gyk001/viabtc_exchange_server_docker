@@ -27,6 +27,7 @@ services:
       - redis_sentinel
       - redis_slave
       - redis_master
+    privileged: true
 
   redis_master:
     container_name: btc-redis-master
